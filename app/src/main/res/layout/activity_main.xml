@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradasi">
+
+
+    <Button
+        android:id="@+id/adminBTN"
+        android:layout_width="195dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="322dp"
+        android:background="@drawable/rounded_button"
+        android:text="Admin Account"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/userBTN"
+        android:layout_width="195dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="376dp"
+        android:background="@drawable/rounded_button"
+        android:text="User Account"
+        android:textSize="18dp" />
+
+</RelativeLayout>

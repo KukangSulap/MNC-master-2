@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradasi"
+    tools:context=".loginactivity.LoginUserActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="326dp"
+        android:layout_height="170dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="126dp"
+        app:srcCompat="@drawable/logo" />
+
+
+    <EditText
+        android:id="@+id/ETlogin1"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="281dp"
+        android:background="#ffff"
+        android:ems="10"
+        android:hint="Nama Surveyor"
+        android:inputType="textPersonName"
+        android:textSize="24sp" />
+
+    <!--<EditText-->
+        <!--android:id="@+id/ETlogin2"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="35dp"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginBottom="227dp"-->
+        <!--android:background="#ffff"-->
+        <!--android:ems="10"-->
+        <!--android:hint="Password"-->
+        <!--android:inputType="textPassword"-->
+        <!--android:textSize="24sp" />-->
+
+    <Button
+        android:id="@+id/btnuserlogin"
+        android:layout_width="195dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="120dp"
+        android:background="@drawable/rounded_button"
+        android:text="LOGIN"
+        android:textSize="18dp" />
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InfoKabKota">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollKab">
+
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            //KECAMATAN
+            <TextView
+                android:id="@+id/etKabKota"
+                android:text="KABUPATEN/KOTA"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="Pilih Salah Satu Kabupaten/Kota Berdasarkan Region yang Dipilih"
+                android:fontFamily="sans-serif"
+                android:textStyle="normal"
+                android:textSize="13dp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:id="@+id/spinnerKabKota"
+                android:entries="@array/str_kab"
+                android:layout_marginTop="5dp"/>
+
+            //KECAMATAN
+            <TextView
+                android:id="@+id/etKecamatan"
+                android:text="KECAMATAN"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="Input Data Nama Kecamatan Secara Jelas Dengan Huruf Besar Setiap Awal Kata (Misal : Kebon Jeruk)"
+                android:fontFamily="sans-serif"
+                android:textStyle="normal"
+                android:textSize="13dp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="WAJIB DI ISI"
+                android:id="@+id/edKecamtan"
+                android:layout_marginTop="5dp"/>
+
+
+            //KELURAHAN
+            <TextView
+                android:id="@+id/etKelurahan"
+                android:text="KELURAHAN"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="Input Data Nama Kelurahan Secara Jelas Dengan Huruf Besar Setiap Awal Kata (Misal : Kebon Jeruk)"
+                android:fontFamily="sans-serif"
+                android:textStyle="normal"
+                android:textSize="13dp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="WAJIB DI ISI"
+                android:id="@+id/edKelurahan"
+                android:layout_marginTop="5dp"/>
+
+
+            //KOMPLEKS
+            <TextView
+                android:id="@+id/etKompleks"
+                android:text="NAMA KOMPLEKS/CLUSTER"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="Jika Ada, Input Data Nama Kompleks/Cluster Secara Jelas Setiap Awal Kata (Misal : Duta Residence)"
+                android:fontFamily="sans-serif"
+                android:textStyle="normal"
+                android:textSize="13dp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="TIDAK WAJIB DI ISI"
+                android:id="@+id/edKompleks"
+                android:layout_marginTop="5dp"/>
+
+            //DEVELOPER
+            <TextView
+                android:id="@+id/etDeveloper"
+                android:text="RW/DEVELOPER"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="Tulis RW atau DEVELOPER Secara Jelas (Misal : RW01 atau PT Summarecon)"
+                android:fontFamily="sans-serif"
+                android:textStyle="normal"
+                android:textSize="13dp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="WAJIB DI ISI"
+                android:id="@+id/edDeveloper"
+                android:layout_marginTop="5dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btnNextKab"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="Berikutnya"
+                    android:background="#11000000"/>
+
+
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

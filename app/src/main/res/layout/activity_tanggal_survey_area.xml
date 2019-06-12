@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:orientation="vertical"
+    tools:context=".TanggalSurveyArea">
+
+
+    <TextView
+        android:text="[1 INPUTAN HASIL SURVEY UNTUK 1 RW]"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Tanggal Survey Area"
+        android:textSize="25dp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:paddingTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="Format Tanggal : DD/MM/YYYY"
+        android:textSize="15dp"
+        android:paddingLeft="5dp"
+        android:textColor="@android:color/black"
+        android:textStyle=""
+        />
+
+    <EditText
+        android:id="@+id/edTanggal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:hint="WAJIB DI ISI"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Region"
+        android:textSize="25dp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:paddingTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="Pilih Salah Satu Region Dibawah Ini:"
+        android:textSize="15dp"
+        android:paddingLeft="5dp"
+        android:textColor="@android:color/black"
+        android:textStyle=""
+        />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/spinerRegion"
+        />
+
+    <Button
+        android:id="@+id/btnNextTanggal"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Berikutnya"
+        android:background="#11000000"/>
+
+</LinearLayout>
